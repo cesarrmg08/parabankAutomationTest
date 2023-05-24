@@ -1,18 +1,20 @@
-    //
+    ////Elements from Home Page Section
+
     
     
     const parabankIdentifier = () => {
         return $('//p[text()="Experience the difference"]');
     }
-    //Buttons for each section of the page
-    const aboutUsButton = () => {
-        return $('//a[text()="About Us"]');
+    const homeTitle = () => {
+        return $('//title[contains(.,"ParaBank | Welcome | Online Banking")]');
     }
+
+    
 
 
     const homePageElements = {
         parabankIdentifier,
-        aboutUsButton
+        homeTitle
     }
     module.exports = {
         homePageElements
