@@ -1,4 +1,4 @@
-// Elements from Products Section
+// Products Elements
 
 const productsButton = () => { return $('//a[text()="Products"]'); };
 const productsTitle = () => { return $('//title[contains(.,"Automated Software Testing Tool Suite | Parasoft")]'); };

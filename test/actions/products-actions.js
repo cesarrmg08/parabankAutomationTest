@@ -1,5 +1,7 @@
 const { productsElements } = require('../elements/products-elements');
 
+// Products Actions
+
 async function clickPruductsButton () {
   await productsElements.productsButton().waitForClickable(5000);
   await productsElements.productsButton().click();

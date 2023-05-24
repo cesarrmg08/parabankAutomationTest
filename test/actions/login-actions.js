@@ -1,5 +1,7 @@
 const { loginElements } = require('../elements/login-elements');
 
+// Log In Actions
+
 async function validateLoginLabel () {
   await loginElements.loginIdentifier().waitForDisplayed(10000);
   await expect(loginElements.loginIdentifier()).toBeDisplayed();

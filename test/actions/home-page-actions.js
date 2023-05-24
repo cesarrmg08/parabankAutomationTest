@@ -1,5 +1,7 @@
 const { homePageElements } = require('../elements/home-page-elements');
 
+// Home Page Actions
+
 async function goToParabankWebsite () {
   await browser.url('/');
 }

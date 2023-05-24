@@ -1,4 +1,4 @@
-// Elements from Login Section
+// Log In Elements
 
 const loginIdentifier = () => { return $('//h2[text()="Customer Login"]'); };
 const loginButton = () => { return $('//input[@value="Log In"]'); };

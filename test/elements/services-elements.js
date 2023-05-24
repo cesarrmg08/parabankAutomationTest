@@ -1,4 +1,4 @@
-// Elements from Services Section
+// Services Elements
 
 const servicessButton = () => { return $('//a[text()="Services"]'); };
 const servicesIdentifier = () => {

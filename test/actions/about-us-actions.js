@@ -1,5 +1,7 @@
 const { aboutUsElements } = require('../elements/about-us-elements');
 
+// About Us Actions
+
 async function clickAboutUsButton () {
   await aboutUsElements.aboutUsButton().waitForClickable(5000);
   await aboutUsElements.aboutUsButton().click();

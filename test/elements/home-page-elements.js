@@ -1,4 +1,4 @@
-/// /Elements from Home Page Section
+// Home Page Elements
 
 const parabankIdentifier = () => {
   return $('//p[text()="Experience the difference"]');
