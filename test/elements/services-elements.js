@@ -1,19 +1,18 @@
-//Elements from Services Section
+// Elements from Services Section
 
-
-const servicessButton = () => { return $('//a[text()="Services"]'); }
+const servicessButton = () => { return $('//a[text()="Services"]'); };
 const servicesIdentifier = () => {
-    return $('//span[contains(.,"Available Bookstore SOAP services")]');
-}
+  return $('//span[contains(.,"Available Bookstore SOAP services")]');
+};
 const restfulServicesSpan = () => {
-    return $('//span[contains(.,"Available RESTful services")]');
-}
+  return $('//span[contains(.,"Available RESTful services")]');
+};
 
 const servicesElements = {
-    servicessButton,
-    servicesIdentifier,
-    restfulServicesSpan
-}
+  servicessButton,
+  servicesIdentifier,
+  restfulServicesSpan
+};
 module.exports = {
-    servicesElements
-}
+  servicesElements
+};
